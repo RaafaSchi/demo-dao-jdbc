@@ -26,7 +26,7 @@ public class Program2 {
 		System.out.println("\n----- Test department Update -----");
 		newDep = depDao.findById(3);
 		newDep.setName("TI");
-		depDao.update(newDep);
+		depDao.update(newDep);	
 		System.out.println("Update Completed!");
 
 		System.out.println("\n----- Test department DeleteById -----");
